@@ -15,8 +15,8 @@ body {
   display: block;
   clear: both; }
 
-h1.title {
-  font-size: 80px;
+.title {
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -47,8 +47,9 @@ h1.title {
     top: -50px;
     opacity: 0; } }
 .scores-container {
-  float: right;
-  text-align: right; }
+  /*float: right;
+  text-align: right;*/
+  text-align: center; }
 
 .score-container, .best-container {
   position: relative;
@@ -107,13 +108,14 @@ a {
   cursor: pointer; }
 
 strong.important {
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+  color:#0040FF;}
 
 hr {
   border: none;
   border-bottom: 1px solid #d8d4d0;
-  margin-top: 20px;
-  margin-bottom: 30px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .container {
   width: 500px;
@@ -551,7 +553,7 @@ hr {
   float: right; }
 
 .game-explanation {
-  margin-top: 50px; }
+  margin-top: 10px; }
 
 @media screen and (max-width: 520px) {
   html, body {
@@ -561,7 +563,7 @@ hr {
     margin: 20px 0;
     padding: 0 20px; }
 
-  h1.title {
+  .title {
     font-size: 27px;
     margin-top: 15px; }
 
